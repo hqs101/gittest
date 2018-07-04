@@ -1,0 +1,6 @@
+
+计算字符串的长度：
+http://www.jb51.net/article/42116.htm
+
+
+file类

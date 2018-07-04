@@ -1,0 +1,16 @@
+html
+<div id="org"></div> 
+<input type="button" onclick="add1();" value="Ìí¼Ó" />
+ 
+script
+<script type="text/javascript">
+function add1(){
+    var input1 = document.createElement('input');
+    input1.setAttribute('type', 'text');
+    input1.setAttribute('name', 'organizers[]');
+    input1.setAttribute('class', 'git');
+    
+    var btn1 = document.getElementById("org");
+    btn1.insertBefore(input1,null);
+}
+</script>

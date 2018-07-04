@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin:0 auto;
+            background-color:greenyellow;
+        }
+        .pa-header{
+            height:48px;
+            background-color:blue;
+
+        }
+        .pa_body .body-menu{
+            position:absolute;
+            top:48px;
+            left:0;
+            bottom:0;
+            width:200px;
+            background-color:red;
+        }
+        .pa_body .body-content{
+            position:absolute;
+            top:48px;
+            left:210px;
+            right:0;
+            background-color:green;
+            bottom:0;
+            /* “bottom:0 与 overflow” 结合使用的效果：当内容超出显示器时，自动添加本区域的滚动条，其他区域保持不变*/
+            overflow:auto;
+            /*除了上面的方式，还有一种是不定义bottom，也不用overflow，这样内容是多少，中间内容区的行高就是多少，自适应，但是菜单和标题栏就会随着滚轮而动*/
+        }
+    </style>
+</head>
+<body>
+    <div class="pa-header">top-target</div>
+    <div class="pa_body">
+        <div class="body-menu"></div>
+        <div class="body-content">
+            1111111111111111111111111111111111<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+            2222222222222222222222222222222222<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+            2222222222222222222222222222222222<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+            2222222222222222222222222222222222<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+            <div style="border:2px dashed wheat;height:60px;"></div>
+            2222222222222222222222222222222222<br/>
+        </div>
+    </div>
+</body>
+</html>
